@@ -1,0 +1,72 @@
+/* header */
+
+h1 {
+  text-align: center;
+}
+
+
+/* calculatorBox */
+
+.calculatorBox {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.calculatorBoxItem {
+  flex: 1;
+}
+
+.numberPad {
+  flex: 3;
+}
+
+/* Number boxes */
+
+.numberPad {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+  align-items: flex;
+  align-items: flex-start;
+}
+
+.number {
+  padding: 0.6em;
+  border: 1px black solid;
+  background-color: lightblue;
+  display: block;
+  flex: 1;
+  flex-basis: 25%;
+  text-align: center;
+}
+
+/* answerBox */
+
+.answerBox {
+  min-height: 42px;
+  border: 1px solid black;
+  background-color: lightgrey;
+  flex: 3;
+  flex-basis: 100%;
+}
+
+
+/* operators */
+
+.operators {
+  display: flex;
+  width: 12.5%;
+  flex-wrap: wrap;
+}
+
+.operator {
+  padding: 0.5em;
+  border: 1px black solid;
+  background-color: lightblue;
+  flex: 1 0 12.5%;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  text-align: center;
+}
