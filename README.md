@@ -1,0 +1,2 @@
+# calculator
+Vanilla Javascript calculator
